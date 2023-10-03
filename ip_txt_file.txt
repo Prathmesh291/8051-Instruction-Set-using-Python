@@ -1,0 +1,17 @@
+ CJNE A , B , LABEL
+ RL A
+LABEL: RR A
+ RL A
+ ADD A , #1bH
+ INC A
+ MOV A , R0
+ ORL A , R0
+ SUBB A , R1
+ DIV AB
+ XCH A , R3
+ XRL A , R1
+ DEC A
+ MUL AR1
+ CPL A
+ ANL A , R0
+ SETB R3
